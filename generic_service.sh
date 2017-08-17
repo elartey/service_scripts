@@ -1,15 +1,11 @@
 #!/bin/bash 
 
-### BEGIN 
-
 # Creates an instance of 2 processes
 
-### END  
-
-SCRIPT=<name-of-script-or-binary>
+SCRIPT="<name-of-script-or-binary>"
 RUNAS="<user-to-run-command>"
 worker_ids=( "worker1.pid" "worker2.pid" )
-LOGFILE=<path-to-log>
+LOGFILE="<path-to-log>"
 
 start() {
     echo 'Starting processes...' >&2
